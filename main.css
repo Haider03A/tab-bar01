@@ -8,7 +8,7 @@ main {
     background-color: #ffffff;
     min-height: 100px;
     height: 100vh;
-    min-width: 450px;
+    min-width: 400px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -29,6 +29,7 @@ main .container .active {
     flex-flow: column nowrap;
     width: 80px;
     align-items: center;
+    transition: .3s;
 }
 
 main .container .active span {
@@ -37,6 +38,10 @@ main .container .active span {
     width: 50px;
     background-color: #ffffff;
     border-radius: 20px;
+}
+
+main .container .active svg path {
+    transition: .3s;
 }
 
 main .container ul {
